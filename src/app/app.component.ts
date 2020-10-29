@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'customer';
+  title = 'Thank you for Visiting!!!';
+  message = 'Welcome to Quickgroceries';
+
+  getMessage(){
+    console.log("get welcome message");
+  }
 }

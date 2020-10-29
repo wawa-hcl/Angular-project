@@ -1,0 +1,17 @@
+
+<div style="text-align: center;">
+    <div class="form-style-5">
+        <form action="/welcome">
+Name : <input type="text" name = "name" [(ngModel)]="name"><br>
+Username : <input type="text"  [(ngModel)]="username"><br>
+Email ID : <input type="text" [(ngModel)]="email"><br>
+Password : <input type ="password" [(ngModel)]="password"><br>
+Address : <input type="text" [(ngModel)]="address"><br>
+PinCode : <input type = "text" [(ngModel)] = "pincode"><br><br>
+
+</form>
+<button (onclick)= handleRegistration()>Register</button>
+</div>
+
+<p>Fill details for registration <br> Thank you !! {{name}}</p>
+</div>
